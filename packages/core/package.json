@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-svg-icons",
-  "version": "2.0.1",
+  "name": "@wlim33/vite-plugin-svg-icons",
+  "version": "2.1.1",
   "description": "Vite Plugin for fast creating SVG sprites.",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -34,13 +34,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/anncwb/vite-plugin-svg-icons",
+    "url": "https://github.com/wlim33/vite-plugin-svg-icons",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/anncwb/vite-plugin-svg-i cons/issues"
+    "url": "https://github.com/wlim33/vite-plugin-svg-icons/issues"
   },
-  "homepage": "https://github.com/anncwb/vite-plugin-svg-icons/tree/master/#readme",
+  "homepage": "https://github.com/wlim33/vite-plugin-svg-icons/tree/master/#readme",
   "dependencies": {
     "@types/svgo": "^2.6.1",
     "cors": "^2.8.5",
@@ -49,7 +49,7 @@
     "fs-extra": "^10.0.0",
     "pathe": "^0.2.0",
     "svg-baker": "1.7.0",
-    "svgo": "^2.8.0"
+    "svgo": "^3.0.3"
   },
   "peerDependencies": {
     "vite": ">=2.0.0"
