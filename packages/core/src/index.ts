@@ -239,8 +239,6 @@ export async function compilerIcon(
     content = data || content
   }
 
-  // fix cannot change svg color  by  parent node problem
-  content = content.replace(/stroke="[a-zA-Z#0-9]*"/, 'stroke="currentColor"')
   const svgSymbol = await new SVGCompiler().addSymbol({
     id: symbolId,
     content,
