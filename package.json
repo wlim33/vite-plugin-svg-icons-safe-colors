@@ -1,6 +1,5 @@
 {
-  "name": "vite-plugin-svg-icons-monorepo",
-  "private": true,
+  "name": "@wlim33/vite-plugin-svg-icons-monorepo",
   "version": "2.0.1",
   "license": "MIT",
   "author": "Vben",
